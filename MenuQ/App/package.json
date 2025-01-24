@@ -1,0 +1,33 @@
+{
+  "name": "menuqadminapp",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-picker/picker": "^2.11.0",
+    "axios": "^1.7.9",
+    "expo": "~52.0.25",
+    "expo-image-picker": "~16.0.4",
+    "expo-media-library": "~17.0.5",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.6",
+    "react-native-fs": "^2.20.0",
+    "react-native-image-picker": "^7.2.3",
+    "react-native-paper": "^5.13.1",
+    "react-native-qrcode-svg": "^6.3.14",
+    "react-native-svg": "15.8.0",
+    "react-native-tab-view": "^4.0.5",
+    "expo-file-system": "~18.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
